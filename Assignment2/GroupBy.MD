@@ -2,9 +2,10 @@
 
 Select Sum(Losses) From [ChicagoCubs_1874-2016]
 
-Group BY Season_Year
-
+Group BY Season_Year/n
 Having Losses < 30
+
+
 
 
 // Group_column and having must be string.
