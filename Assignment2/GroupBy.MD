@@ -1,9 +1,8 @@
 # We want to implement the specific SQL query below by using the ChicagoCubs dataset in python 3.5.
 
-Select Sum(Losses) From [ChicagoCubs_1874-2016]
-
-Group BY Season_Year/n
-Having Losses < 30
+{Select Sum(Losses) From [ChicagoCubs_1874-2016]
+Group BY Season_Year
+Having Losses < 30}
 
 
 
